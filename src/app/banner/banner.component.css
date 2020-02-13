@@ -8,7 +8,15 @@
   background-repeat: no-repeat;
   background-position: 15% left;
   text-align: left;
-  position: relative;
-  z-index: 9999;
+  position: absolute;
+}
+
+.under-mesh {
+  width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+  background: black;
+  opacity: 0.50;
+  position: absolute;
 }
 /*# sourceMappingURL=banner.component.css.map */
