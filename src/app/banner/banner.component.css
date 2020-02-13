@@ -10,8 +10,6 @@
 }
 
 .under-mesh {
-  width: 200px;
-  height: 200px;
   background: black;
   opacity: 0.50;
   position: absolute;
