@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=reviews-section.component.css.map */
+#reviews {
+  background-color: navy;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Raleway';
+  font-weight: 100;
+}
+/*# sourceMappingURL=reviews-section.component.css.map */

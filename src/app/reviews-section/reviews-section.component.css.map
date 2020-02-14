@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,SAAS;EACtB,WAAW,EAAE,GAAG;CACnB",
     "sources": [
         "reviews-section.component.scss"
     ],
