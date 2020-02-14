@@ -8,6 +8,7 @@ import { MainLayerComponent } from './main-layer/main-layer.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReviewsSectionComponent } from './reviews-section/reviews-section.component';
+import { ReviewsComponent } from './reviews-section/reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ReviewsSectionComponent } from './reviews-section/reviews-section.compo
     MainLayerComponent,
     NavBarComponent,
     FooterComponent,
-    ReviewsSectionComponent
+    ReviewsSectionComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule

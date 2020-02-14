@@ -1,5 +1,5 @@
 #reviews-panel {
-  background-color: navy;
+  background-color: #03334e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,7 +12,6 @@
   font-family: 'Raleway';
   font-weight: 100;
   font-style: normal;
-  font-size: 1.5em;
   color: white;
 }
 /*# sourceMappingURL=reviews-section.component.css.map */
