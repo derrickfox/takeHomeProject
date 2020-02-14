@@ -1,1 +1,17 @@
-/* No CSS *//*# sourceMappingURL=footer.component.css.map */
+#footer {
+  background-color: black;
+  color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer-image {
+  float: left;
+}
+
+#footer-links {
+  float: right;
+}
+/*# sourceMappingURL=footer.component.css.map */
