@@ -2,5 +2,5 @@
     <p id="reviews-title">Reviews</p><p><a href="#">Write a review on this product</a></p>
 </div>
 <div class="row">
-    <app-reviews></app-reviews>
+    <app-reviews [review]='review' *ngFor="let review of reviews"></app-reviews>
 </div>
