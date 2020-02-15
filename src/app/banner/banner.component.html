@@ -3,22 +3,35 @@
         <div class="col-md-8 under-mesh banner-square"></div>
         <div class="col-md-8 banner-square">
             <div class="row">
-                <div class="col-md-4">
-                    <img src="{{imagePath}}">
+                <div class="col-md-4" style="border: 1px solid blue;">
+                    <img style="transform: scale(0.75);" src="{{imagePath}}">
                 </div>
-                <div id="right-panel" class="col-md-4">
+                <div id="right-panel" class="col-md-4" style="border: 1px solid red;">
                     <p id="banner-title">{{title}}</p>
                     <p *ngFor="let point of description" id="banner-description">{{point}}</p>
                     <div class="row">
-                        <div class="def-number-input number-input safari_only">
+                        <div class="col def-number-input number-input safari_only">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                        </div>
+                        <div class="col def-number-input number-input safari_only">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
                             <input class="quantity" min="0" name="quantity" value="1" type="number">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
                         </div>
                     </div>
                     <div class="row">
-                        <h3 class="col-md-1">TWO - ONE</h3>
-                        <h3 class="col-md-1">TWO - TWO</h3>
+                        <div class="col def-number-input number-input safari_only">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                        </div>
+                        <div class="col def-number-input number-input safari_only">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                        </div>
                     </div>
                 </div>
             </div>
