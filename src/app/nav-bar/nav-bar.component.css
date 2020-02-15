@@ -1,5 +1,9 @@
 #navbarSupportedContent {
-  padding-left: 35%;
+  padding-left: 30%;
   padding-right: 25%;
+}
+
+.tag-seperator {
+  padding-top: 1.5%;
 }
 /*# sourceMappingURL=nav-bar.component.css.map */
