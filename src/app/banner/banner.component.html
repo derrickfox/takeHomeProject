@@ -3,8 +3,11 @@
         <div class="col-md-6 under-mesh banner-square"></div>
         <div class="col-md-6 banner-square">
             <div class="row">
-                <img src="../../assets/image-assets/tough-mojo-jacket-img1.png">
-                <h1 class="col-md-3">TEST</h1>
+                <img src="{{imagePath}}">
+                <p id="banner-title" class="col-md-3">{{title}}</p>
+                <div *ngFor="let point of description">
+                    <p id="banner-description">{{point}}</p>
+                </div>
             </div>
         </div>
     </div>
