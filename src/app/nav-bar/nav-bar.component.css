@@ -1,1 +1,5 @@
-/* No CSS *//*# sourceMappingURL=nav-bar.component.css.map */
+#navbarSupportedContent {
+  padding-left: 35%;
+  padding-right: 25%;
+}
+/*# sourceMappingURL=nav-bar.component.css.map */

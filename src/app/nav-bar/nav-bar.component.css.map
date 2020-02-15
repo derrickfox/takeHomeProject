@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACpB,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,GAAG;CACrB",
     "sources": [
         "nav-bar.component.scss"
     ],
