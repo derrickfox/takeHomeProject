@@ -34,4 +34,9 @@
   color: white;
   font-size: 8px;
 }
+
+#right-panel {
+  position: absolute;
+  right: 0;
+}
 /*# sourceMappingURL=banner.component.css.map */

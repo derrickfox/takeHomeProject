@@ -3,10 +3,12 @@
         <div class="col-md-8 under-mesh banner-square"></div>
         <div class="col-md-8 banner-square">
             <div class="row">
-                <img src="{{imagePath}}">
-                <p id="banner-title" class="col-md-3">{{title}}</p>
-                <div *ngFor="let point of description">
-                    <p id="banner-description">{{point}}</p>
+                <div class="col-md-4">
+                    <img src="{{imagePath}}">
+                </div>
+                <div id="right-panel" class="col-md-4">
+                    <p id="banner-title">{{title}}</p>
+                    <p *ngFor="let point of description" id="banner-description">{{point}}<br></p>
                 </div>
             </div>
         </div>
