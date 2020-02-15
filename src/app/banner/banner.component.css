@@ -13,10 +13,25 @@
   background: black;
   opacity: 0.50;
   position: absolute;
+  height: 100%;
 }
 
 .banner-square {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+#center-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#banner-description {
+  color: white;
+  font-size: 8px;
 }
 /*# sourceMappingURL=banner.component.css.map */

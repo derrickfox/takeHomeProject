@@ -1,10 +1,13 @@
 <div id="banner" style="position: relative;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 under-mesh banner-square"></div>
-            <div class="col-md-6 banner-square">
-                <img id="main-image" src="../../assets/image-assets/tough-mojo-jacket-img1.png">
-                <h1>TEST</h1>
+    <div id="center-div" class="row">
+        <div class="col-md-6 under-mesh banner-square"></div>
+        <div class="col-md-6 banner-square">
+            <div class="row">
+                <img src="{{imagePath}}">
+                <p id="banner-title" class="col-md-3">{{title}}</p>
+                <div *ngFor="let point of description">
+                    <p id="banner-description">{{point}}</p>
+                </div>
             </div>
         </div>
     </div>
