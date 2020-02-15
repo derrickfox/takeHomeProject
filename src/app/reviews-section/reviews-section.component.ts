@@ -11,14 +11,14 @@ export class ReviewsSectionComponent implements OnInit {
 
 	reviews: Review[] = [
 		new Review(
-			'../../../assets/image-assets/reviewer1.png',
+			'../assets/image-assets/reviewer1.png',
 			'Shaun White',
 			'This Thing is a monster!',
 			'Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test',
 			5
 		),
 		new Review(
-			'../../../assets/image-assets/reviewer2.png',
+			'../assets/image-assets/reviewer2.png',
 			'Jennie Loren',
 			'Luv it so much I bought 2!',
 			'Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test',
