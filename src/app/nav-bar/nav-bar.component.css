@@ -6,4 +6,8 @@
 .tag-seperator {
   padding-top: 1.5%;
 }
+
+.dropdown-item:hover {
+  background-color: #4998a4;
+}
 /*# sourceMappingURL=nav-bar.component.css.map */
