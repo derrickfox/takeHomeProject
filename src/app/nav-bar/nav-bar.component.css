@@ -10,4 +10,10 @@
 .dropdown-item:hover {
   background-color: #4998a4;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #2c5461;
+  font-weight: 200;
+  font-size: 18px;
+}
 /*# sourceMappingURL=nav-bar.component.css.map */

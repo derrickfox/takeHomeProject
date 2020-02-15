@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=app.component.css.map */
+#header-navbar {
+  background-color: #000000;
+}
+
+p {
+  color: white;
+}
+
+td {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+td p {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+nav {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+/*# sourceMappingURL=app.component.css.map */
