@@ -1,0 +1,15 @@
+.single-review {
+  background-color: #03334e;
+  color: white;
+}
+
+.review-date {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.review-star {
+  -webkit-transform: scaleX(1) scaleY(0.5);
+          transform: scaleX(1) scaleY(0.5);
+}
+/*# sourceMappingURL=reviews.component.css.map */

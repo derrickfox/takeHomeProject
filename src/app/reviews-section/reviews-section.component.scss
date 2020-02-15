@@ -1,5 +1,7 @@
+$slateBlue : rgb(3, 51, 78);
+
 #reviews-panel {
-    background-color: navy;
+    background-color: $slateBlue;
     display: flex;
     justify-content: center;
 }
@@ -8,6 +10,5 @@
     font-family: 'Raleway';
     font-weight: 100;
     font-style: normal;
-    font-size: 1.5em;
     color: white;
 }
