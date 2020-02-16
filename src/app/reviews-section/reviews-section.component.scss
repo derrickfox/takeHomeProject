@@ -6,9 +6,9 @@ $slateBlue : rgb(3, 51, 78);
 }
 
 #reviews-title {
-    font-family: 'Raleway';
+    // font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    font-style: normal;
+    font-size: 50px;
     color: white;
 }
 
@@ -19,4 +19,15 @@ $slateBlue : rgb(3, 51, 78);
 
 #reviews-section {
     background-color: $slateBlue;
+}
+
+#review-link {
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.review-body {
+    margin-left: 25%;
 }

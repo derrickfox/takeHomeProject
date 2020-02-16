@@ -4,9 +4,9 @@
             <img [src]="review.reviewerImage">
             <p>{{review.reviewerName}}</p>
         </div><br>
-        <div class="col-10">
+        <div class="col-10" style="padding-left: 30px">
             <div class="row">
-                <h5>{{review.reviewTitle}}</h5><p class="review-date">08/20/2013</p><img class="review-star" src="../../../assets/image-assets/star.png">
+                <h5>{{review.reviewTitle}}</h5><p class="review-date">{{review.reviewDate}}</p><img class="review-star" src="../../../assets/image-assets/star.png">
             </div>
             <div class="row">
                 <p>{{review.reviewBody}}</p>
