@@ -55,6 +55,11 @@
   border-radius: 0px;
 }
 
+.button-right {
+  position: absolute;
+  right: 0;
+}
+
 #to-cart-button {
   width: 10vw;
   height: 8vh;
