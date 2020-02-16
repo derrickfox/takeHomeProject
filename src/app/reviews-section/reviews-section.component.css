@@ -1,5 +1,4 @@
 #reviews-panel {
-  background-color: #03334e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,9 +8,28 @@
 }
 
 #reviews-title {
-  font-family: 'Raleway';
   font-weight: 100;
-  font-style: normal;
+  font-size: 50px;
   color: white;
+}
+
+#reviews-container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#reviews-section {
+  background-color: #03334e;
+}
+
+#review-link {
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.review-body {
+  margin-left: 25%;
 }
 /*# sourceMappingURL=reviews-section.component.css.map */

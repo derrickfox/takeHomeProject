@@ -9,7 +9,7 @@
 }
 
 .review-star {
-  -webkit-transform: scaleX(1) scaleY(0.5);
-          transform: scaleX(1) scaleY(0.5);
+  -webkit-transform: scaleX(0.5) scaleY(0.5);
+          transform: scaleX(0.5) scaleY(0.5);
 }
 /*# sourceMappingURL=reviews.component.css.map */

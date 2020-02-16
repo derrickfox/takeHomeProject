@@ -1,6 +1,6 @@
-<div id="reviews-panel" class="row">
-    <p id="reviews-title">Reviews</p><p><a href="#">Write a review on this product</a></p>
-</div>
-<div class="row">
-    <app-reviews [review]='review' *ngFor="let review of reviews"></app-reviews>
+<div id="reviews-section">
+    <div class="row" id="reviews-container">
+        <p id="reviews-title">Reviews</p><p id="review-link">Write a review on this product</p>
+        <app-reviews [review]='review' *ngFor="let review of reviews"></app-reviews>
+    </div>
 </div>
