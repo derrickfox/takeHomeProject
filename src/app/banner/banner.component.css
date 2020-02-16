@@ -51,6 +51,8 @@
 }
 
 .number-input {
+  -webkit-transform: scaleX(0.75);
+          transform: scaleX(0.75);
   border: 0px;
   border-radius: 0px;
 }
