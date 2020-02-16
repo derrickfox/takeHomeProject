@@ -1,16 +1,23 @@
 #footer {
     background-color: black;
     color: #ffffff;
-    // position: fixed;
-    // left: 0;
-    // bottom: 0;
-    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1.5%;
+    width: 101%;
+    height: 10vh;
 }
 
 #footer-image {
-    float: left;
+    position: absolute;
 }
 
 #footer-links {
-    float: right;
+    position: absolute;
+    right: 0;
+}
+
+.footer-link {
+    padding: 1%;
+    color: white;
 }
