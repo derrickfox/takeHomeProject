@@ -6,14 +6,24 @@
                 <div class="col-md-4" style="border: 1px solid blue;">
                     <img style="transform: scale(0.75);" src="{{imagePath}}">
                 </div>
-                <div id="right-panel" class="col-md-4" style="border: 1px solid red;">
+                <div id="right-panel" class="col-md-6" style="border: 1px solid red;">
                     <p id="banner-title">{{title}}</p>
                     <p *ngFor="let point of description" id="banner-description">{{point}}</p>
                     <div class="row">
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown button
+                            <!-- Split dropleft button -->
+                            <button type="button" class="btn btn-secondary">
+                                Split dropleft
                             </button>
+                            <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <!-- <span class="sr-only">Toggle Dropleft</span> -->
+                                </button>
+                                <div class="dropdown-menu">
+                                    <!-- Dropdown menu links -->
+                                </div>
+                            </div>
+
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
