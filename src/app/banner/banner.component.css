@@ -51,17 +51,29 @@
 }
 
 .number-input {
-  margin-bottom: 3rem;
-  -webkit-transform: scale(0.75);
-          transform: scale(0.75);
+  border: 0px;
+  border-radius: 0px;
 }
 
 #to-cart-button {
   width: 10vw;
-  height: 5vh;
+  height: 8vh;
   background-color: #4998a4;
   color: white;
   border: 0px;
+}
+
+select {
+  background-color: #678892;
+  color: white;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.def-number-input {
+  background-color: #678892;
+  width: 10%;
+  height: 5%;
 }
 
 .number-input button {
