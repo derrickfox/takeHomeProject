@@ -16,3 +16,24 @@
     font-weight: 200;
     font-size: 18px;
 }
+
+.navbar {
+    height: 6vh;
+}
+
+.fa-chevron-down {
+    font-weight: thin;
+    font-size: 15px;
+}
+
+li:hover ul {
+    height: 200px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .navbar ul {
+    position: absolute;
+    transition: all .5s ease;
+  }
+
