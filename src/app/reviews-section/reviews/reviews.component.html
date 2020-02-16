@@ -6,7 +6,10 @@
         </div><br>
         <div class="col-10" style="padding-left: 30px">
             <div class="row">
-                <h5>{{review.reviewTitle}}</h5><p class="review-date">{{review.reviewDate}}</p><img class="review-star" src="../../../assets/image-assets/star.png">
+                <h5>{{review.reviewTitle}}</h5>
+                <p class="review-date">{{review.reviewDate}}
+                    <img *ngFor="let star of review.reviewRating" class="review-star" src="../../../assets/image-assets/star.png">
+                </p>
             </div>
             <div class="row">
                 <p>{{review.reviewBody}}</p>

@@ -3,7 +3,7 @@ export class Review {
 	public reviewerName: string;
 	public reviewTitle: string;
 	public reviewBody: string;
-	public reviewRating: number;
+	public reviewRating: number[];
 	public reviewDate: string;
 
 	constructor(
@@ -11,7 +11,7 @@ export class Review {
 		reviewerName: string, 
 		reviewTitle: string, 
 		reviewBody: string, 
-		reviewRating: number,
+		reviewRating: number[],
 		reviewDate: string
 		) {
 			this.reviewerImage = reviewerImage;

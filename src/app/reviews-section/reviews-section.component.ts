@@ -15,7 +15,7 @@ export class ReviewsSectionComponent implements OnInit {
 			'Shaun White',
 			'This Thing is a monster!',
 			'Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test',
-			5,
+			[1, 2, 3, 4, 5],
 			'08/23/19'
 		),
 		new Review(
@@ -23,7 +23,7 @@ export class ReviewsSectionComponent implements OnInit {
 			'Jennie Loren',
 			'Luv it so much I bought 2!',
 			'Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test',
-			3,
+			[1, 2, 3],
 			'11/21/19'
 		)
 	]
