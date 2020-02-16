@@ -10,39 +10,25 @@
                     <p id="banner-title">{{title}}</p>
                     <p *ngFor="let point of description" id="banner-description">{{point}}</p>
                     <div class="row">
-                        <div class="dropdown">
-                            <!-- Split dropleft button -->
-                            <button type="button" class="btn btn-secondary">
-                                Split dropleft
-                            </button>
-                            <div class="btn-group" role="group">
-                                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <!-- <span class="sr-only">Toggle Dropleft</span> -->
-                                </button>
-                                <div class="dropdown-menu">
-                                    <!-- Dropdown menu links -->
-                                </div>
-                            </div>
-
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
-                        <div class="col def-number-input number-input safari_only">
+                        <select class="browser-default custom-select col-md-3">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <div class="def-number-input number-input col-md-5">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
                             <input class="quantity" min="0" name="quantity" value="1" type="number">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col def-number-input number-input safari_only">
+                        <div class="def-number-input number-input col-md-5">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
                             <input class="quantity" min="0" name="quantity" value="1" type="number">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
                         </div>
-                        <div class="col def-number-input number-input safari_only">
+                        <div class="def-number-input number-input col-md-5">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
                             <input class="quantity" min="0" name="quantity" value="1" type="number">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
