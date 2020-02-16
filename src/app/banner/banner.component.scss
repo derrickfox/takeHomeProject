@@ -40,6 +40,10 @@
     right: 0;
 }
 
+.dropdown-toggle {
+    border-left: 2px solid black;
+}
+
 .number-input input[type="number"] {
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
@@ -120,3 +124,5 @@
         }
     }
 }
+
+
