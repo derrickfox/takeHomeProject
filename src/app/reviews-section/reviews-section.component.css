@@ -1,5 +1,4 @@
 #reviews-panel {
-  background-color: #03334e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,5 +12,14 @@
   font-weight: 100;
   font-style: normal;
   color: white;
+}
+
+#reviews-container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#reviews-section {
+  background-color: #03334e;
 }
 /*# sourceMappingURL=reviews-section.component.css.map */
