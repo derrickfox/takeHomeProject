@@ -9,6 +9,12 @@
   position: absolute;
 }
 
+#banner-title {
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+}
+
 .under-mesh {
   background: black;
   opacity: 0.50;
@@ -31,8 +37,13 @@
 }
 
 #banner-description {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
   color: white;
-  font-size: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 #right-panel {
@@ -79,8 +90,9 @@ select {
 
 .def-number-input {
   background-color: #678892;
-  width: 10%;
+  width: 20%;
   height: 5%;
+  float: left;
 }
 
 .number-input button {
