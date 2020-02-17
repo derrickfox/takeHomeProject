@@ -7,6 +7,9 @@
   background-position: 15% left;
   text-align: left;
   position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #banner-title {
@@ -19,6 +22,7 @@
   background: black;
   opacity: 0.50;
   position: absolute;
+  width: 85%;
   height: 100%;
 }
 
@@ -62,10 +66,12 @@
 }
 
 .number-input {
-  -webkit-transform: scaleX(0.75);
-          transform: scaleX(0.75);
   border: 0px;
   border-radius: 0px;
+}
+
+#description-block {
+  margin-top: 4%;
 }
 
 .button-right {
