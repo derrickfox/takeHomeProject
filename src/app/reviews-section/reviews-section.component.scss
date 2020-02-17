@@ -1,5 +1,9 @@
 $slateBlue : rgb(3, 51, 78);
 
+// p {
+//     font-family: 'Raleway', sans-serif;
+// }
+
 #reviews-panel {
     display: flex;
     justify-content: center;
@@ -19,6 +23,7 @@ $slateBlue : rgb(3, 51, 78);
 
 #reviews-section {
     background-color: $slateBlue;
+    font-family: 'Raleway', sans-serif;
 }
 
 #review-link {
