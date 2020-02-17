@@ -4,12 +4,20 @@
 }
 
 .review-date {
+  width: 40%;
   padding-left: 5%;
   padding-right: 5%;
+  font-size: 16px;
+  margin-top: 1%;
+  margin-right: 3%;
 }
 
 .review-star {
   -webkit-transform: scaleX(0.5) scaleY(0.5);
           transform: scaleX(0.5) scaleY(0.5);
+}
+
+.review-description {
+  padding-left: 20px;
 }
 /*# sourceMappingURL=reviews.component.css.map */

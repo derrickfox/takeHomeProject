@@ -1,3 +1,7 @@
+app-reviews {
+  font-size: 10px;
+}
+
 #reviews-panel {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,14 +12,16 @@
 }
 
 #reviews-title {
-  font-weight: 100;
   font-size: 50px;
   color: white;
+  font-family: "Raleway";
+  font-weight: 100;
+  font-style: normal;
 }
 
 #reviews-container {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #reviews-section {
