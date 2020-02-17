@@ -7,12 +7,22 @@
   background-position: 15% left;
   text-align: left;
   position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#banner-title {
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
 }
 
 .under-mesh {
   background: black;
   opacity: 0.50;
   position: absolute;
+  width: 85%;
   height: 100%;
 }
 
@@ -31,17 +41,18 @@
 }
 
 #banner-description {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
   color: white;
-  font-size: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 #right-panel {
   position: absolute;
   right: 0;
-}
-
-.dropdown-toggle {
-  border-left: 2px solid black;
 }
 
 .number-input input[type="number"] {
@@ -55,9 +66,39 @@
 }
 
 .number-input {
-  margin-bottom: 3rem;
-  -webkit-transform: scale(0.75);
-          transform: scale(0.75);
+  border: 0px;
+  border-radius: 0px;
+}
+
+#description-block {
+  margin-top: 4%;
+}
+
+.button-right {
+  position: absolute;
+  right: 0;
+}
+
+#to-cart-button {
+  width: 10vw;
+  height: 8vh;
+  background-color: #4998a4;
+  color: white;
+  border: 0px;
+}
+
+select {
+  background-color: #678892;
+  color: white;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.def-number-input {
+  background-color: #678892;
+  width: 20%;
+  height: 5%;
+  float: left;
 }
 
 .number-input button {

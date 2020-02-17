@@ -1,42 +1,35 @@
 <div id="banner" style="position: relative;">
     <div id="center-div" class="row">
-        <div class="col-md-8 under-mesh banner-square"></div>
+        <div class="col-md-10 under-mesh banner-square"></div>
         <div class="col-md-8 banner-square">
-            <div class="row">
-                <div class="col-md-4" style="border: 1px solid blue;">
-                    <img style="transform: scale(0.75);" src="{{imagePath}}">
+            <div id="description-block" class="row">
+                <div class="col-md-4">
+                    <img src="{{imagePath}}">
                 </div>
-                <div id="right-panel" class="col-md-4" style="border: 1px solid red;">
+                <div id="right-panel" class="col-md-6">
                     <p id="banner-title">{{title}}</p>
                     <p *ngFor="let point of description" id="banner-description">{{point}}</p>
                     <div class="row">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown button
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
-                        <div class="col def-number-input number-input safari_only">
-                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
-                            <input class="quantity" min="0" name="quantity" value="1" type="number">
-                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
-                        </div>
+                        <select class="browser-default custom-select col-md-4">
+                            <option selected>Select Size</option>
+                            <option value="1">Small</option>
+                            <option value="2">Medium</option>
+                            <option value="3">Large</option>
+                        </select>
+                        <select class="browser-default custom-select col-md-4 button-right">
+                            <option selected>Select Color</option>
+                            <option value="1">Red</option>
+                            <option value="2">Green</option>
+                            <option value="3">Blue</option>
+                        </select>
                     </div>
                     <div class="row">
-                        <div class="col def-number-input number-input safari_only">
+                        <div class="def-number-input number-input col-md-5">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
                             <input class="quantity" min="0" name="quantity" value="1" type="number">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
                         </div>
-                        <div class="col def-number-input number-input safari_only">
-                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
-                            <input class="quantity" min="0" name="quantity" value="1" type="number">
-                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
-                        </div>
+                        <button id="to-cart-button" class="button-right">Add to Cart</button>
                     </div>
                 </div>
             </div>
