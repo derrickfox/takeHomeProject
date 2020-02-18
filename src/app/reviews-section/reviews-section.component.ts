@@ -45,4 +45,8 @@ export class ReviewsSectionComponent implements OnInit {
 	ngOnInit() {
 	}
 
+	onWriteReview() {
+		alert('working!')
+	}
+
 }

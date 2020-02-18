@@ -1,8 +1,8 @@
 $slateBlue : rgb(3, 51, 78);
 
-// p {
-//     font-family: 'Raleway', sans-serif;
-// }
+app-reviews {
+    font-size: 10px;
+}
 
 #reviews-panel {
     display: flex;
@@ -10,15 +10,16 @@ $slateBlue : rgb(3, 51, 78);
 }
 
 #reviews-title {
-    // font-family: 'Raleway', sans-serif;
-    font-weight: 100;
     font-size: 50px;
     color: white;
+    font-family: "Raleway";
+    font-weight: 100;
+    font-style: normal
 }
 
 #reviews-container {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #reviews-section {
@@ -31,6 +32,7 @@ $slateBlue : rgb(3, 51, 78);
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
+    cursor: pointer;
 }
 
 .review-body {
