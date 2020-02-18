@@ -5,7 +5,8 @@ import { ItemService } from './../item.service';
 
 @Component({
     selector: 'ngbd-modal-basic',
-    templateUrl: './modal.component.html'
+    templateUrl: './modal.component.html',
+    styleUrls: ['./modal.component.scss']
 })
 export class NgbdModalBasic {
     closeResult: string;
