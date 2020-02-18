@@ -8,8 +8,8 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 })
 export class NgbdModalBasic {
     closeResult: string;
-    currentRate: number;
-    
+    currentRate: number = 0;
+
     constructor(private modalService: NgbModal) { }
 
     open(content) {
