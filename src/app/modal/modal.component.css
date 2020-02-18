@@ -7,7 +7,10 @@
 }
 
 .modal-header {
-  font-size: 10px;
-  border: 2px solid red;
+  font-size: 20px;
+}
+
+.modal-title {
+  font-size: 20px;
 }
 /*# sourceMappingURL=modal.component.css.map */
