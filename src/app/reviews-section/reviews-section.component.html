@@ -1,6 +1,7 @@
 <div id="reviews-section">
     <div class="row" id="reviews-container">
         <p id="reviews-title">Reviews</p><p (click)="onWriteReview()" id="review-link">Write a review on this product</p>
+        <ngbd-modal-basic></ngbd-modal-basic>
         <app-reviews [review]='review' *ngFor="let review of reviews"></app-reviews>
     </div>
 </div>
