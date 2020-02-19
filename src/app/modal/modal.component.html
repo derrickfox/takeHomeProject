@@ -1,3 +1,7 @@
+<div id="review-section-top">
+    <h1>Reviews</h1>
+    <p class="review-link2" style="color: white; cursor: pointer;" (click)="open(content)">Write a review on this product</p>
+</div>
 <ng-template #content let-modal>
     <div class="modal-header">
         <h4 class="modal-title" id="modal-basic-title">Please Rate the <strong>{{item}}</strong></h4>
@@ -23,5 +27,3 @@
         <button type="button" class="btn btn-outline-dark add-button" (click)="modal.close('Save click')">Submit Review</button>
     </div>
 </ng-template>
-
-<p class="review-link2" style="color: white; cursor: pointer;" (click)="open(content)">Write a review on this product</p>

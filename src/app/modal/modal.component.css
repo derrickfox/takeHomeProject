@@ -1,9 +1,13 @@
 .review-link2 {
   color: white !important;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 5%;
   cursor: pointer;
+}
+
+#review-section-top {
+  padding-bottom: 15%;
+  color: white;
+  border: 2px solid pink;
+  width: 70vw;
 }
 
 .modal-header {

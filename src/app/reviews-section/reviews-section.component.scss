@@ -6,13 +6,23 @@ app-reviews {
 
 ngbd-modal-basic {
     width: 50%;
-    padding-top: 4%;
-    padding-left: 5%;
+    height: 1vh;
+    // padding-top: 4%;
+    // padding-left: 5%;
 }
 
 ngbd-modal-basic:hover {
     text-decoration: underline;
     color: white;
+}
+
+.first-row {
+    position: absolute;
+    left: 0px;
+    padding-left: 29%;
+    color: white;
+    width: 100%;
+    // bottom: 0px;
 }
 
 #reviews-panel {
@@ -21,7 +31,7 @@ ngbd-modal-basic:hover {
 }
 
 #reviews-title {
-    font-size: 50px;
+    font-size: 30px;
     color: white;
     font-family: "Raleway";
     font-weight: 100;
