@@ -2,6 +2,17 @@ app-reviews {
   font-size: 10px;
 }
 
+ngbd-modal-basic {
+  width: 50%;
+  padding-top: 4%;
+  padding-left: 5%;
+}
+
+ngbd-modal-basic:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 #reviews-panel {
   display: -webkit-box;
   display: -ms-flexbox;
