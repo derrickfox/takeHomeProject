@@ -9,6 +9,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReviewsSectionComponent } from './reviews-section/reviews-section.component';
 import { ReviewsComponent } from './reviews-section/reviews/reviews.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbdModalBasic } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +21,12 @@ import { ReviewsComponent } from './reviews-section/reviews/reviews.component';
     NavBarComponent,
     FooterComponent,
     ReviewsSectionComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    NgbdModalBasic
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

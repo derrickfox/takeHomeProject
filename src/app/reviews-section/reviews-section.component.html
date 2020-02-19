@@ -1,6 +1,10 @@
 <div id="reviews-section">
     <div class="row" id="reviews-container">
-        <p id="reviews-title">Reviews</p><p id="review-link">Write a review on this product</p>
-        <app-reviews [review]='review' *ngFor="let review of reviews"></app-reviews>
+        <div class="row first-row">
+            <ngbd-modal-basic></ngbd-modal-basic>
+        </div>
+        <div class="row" style="padding-top: 7%">
+            <app-reviews [review]='review' *ngFor="let review of reviews"></app-reviews>
+        </div>
     </div>
 </div>

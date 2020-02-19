@@ -1,0 +1,39 @@
+.review-link2 {
+  cursor: pointer;
+}
+
+#review-section-top {
+  color: white;
+  width: 70vw;
+}
+
+#review-title {
+  font-size: 30px;
+  font-weight: 100;
+  padding-right: 3%;
+}
+
+.modal-header {
+  font-size: 20px;
+}
+
+.modal-title {
+  font-size: 20px;
+}
+
+ngb-rating {
+  color: #4998a4;
+  padding-left: 5%;
+}
+
+.modal-review-title {
+  padding-right: 3%;
+  padding-top: 1%;
+}
+
+.add-button {
+  background-color: #4998a4;
+  color: white;
+  border: 0px;
+}
+/*# sourceMappingURL=modal.component.css.map */

@@ -1,24 +1,48 @@
 $slateBlue : rgb(3, 51, 78);
 
+app-reviews {
+    font-size: 10px;
+}
+
+ngbd-modal-basic {
+    width: 50%;
+    height: 1vh;
+}
+
+ngbd-modal-basic:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.first-row {
+    position: absolute;
+    left: 0px;
+    padding-left: 29%;
+    color: white;
+    width: 100%;
+}
+
 #reviews-panel {
     display: flex;
     justify-content: center;
 }
 
 #reviews-title {
-    // font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
+    font-family: "Raleway";
+    font-weight: 100;
+    font-style: normal
 }
 
 #reviews-container {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #reviews-section {
     background-color: $slateBlue;
+    font-family: 'Raleway', sans-serif;
 }
 
 #review-link {
@@ -26,6 +50,7 @@ $slateBlue : rgb(3, 51, 78);
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
+    cursor: pointer;
 }
 
 .review-body {

@@ -6,8 +6,12 @@ $slateBlue : rgb(3, 51, 78);
 }
 
 .review-date {
+    width: 40%;
     padding-left: 5%;
     padding-right: 5%;
+    font-size: 16px;
+    margin-top: 1%;
+    margin-right: 3%;
 }
 
 .review-star {
@@ -17,4 +21,14 @@ $slateBlue : rgb(3, 51, 78);
     // padding: 1%;
     // margin-top: 1%;
     // padding-top: 1%;
+}
+
+.review-description {
+    padding-left: 20px;
+}
+
+.reviewer-name {
+    font-size: 12px;
+    padding-top: 1%;
+    font-weight: 900;
 }
