@@ -18,6 +18,15 @@
   color: white;
 }
 
+.spacer {
+  height: 5vh;
+}
+
+.right-column {
+  position: absolute;
+  right: 0px;
+}
+
 .under-mesh {
   background: black;
   opacity: 0.50;
