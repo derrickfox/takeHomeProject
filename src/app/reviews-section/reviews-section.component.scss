@@ -4,13 +4,31 @@ app-reviews {
     font-size: 10px;
 }
 
+ngbd-modal-basic {
+    width: 50%;
+    height: 1vh;
+}
+
+ngbd-modal-basic:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.first-row {
+    position: absolute;
+    left: 0px;
+    padding-left: 29%;
+    color: white;
+    width: 100%;
+}
+
 #reviews-panel {
     display: flex;
     justify-content: center;
 }
 
 #reviews-title {
-    font-size: 50px;
+    font-size: 30px;
     color: white;
     font-family: "Raleway";
     font-weight: 100;
