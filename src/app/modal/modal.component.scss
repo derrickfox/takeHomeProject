@@ -5,3 +5,27 @@
     padding-top: 5%;
     cursor: pointer;
 }
+
+.modal-header {
+    font-size: 20px;
+}
+
+.modal-title {
+    font-size: 20px;
+}
+
+ngb-rating {
+    color: rgb(73, 152, 164);
+    padding-left: 5%;
+}
+
+.modal-review-title {
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.add-button {
+    background-color: rgb(73, 152, 164);
+    color: white;
+    border: 0px;
+}
