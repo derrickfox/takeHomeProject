@@ -18,6 +18,15 @@
   color: white;
 }
 
+.spacer {
+  height: 5vh;
+}
+
+.right-column {
+  position: absolute;
+  right: 0px;
+}
+
 .under-mesh {
   background: black;
   opacity: 0.50;
@@ -66,6 +75,8 @@
 }
 
 .number-input {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
   border: 0px;
   border-radius: 0px;
 }
@@ -78,6 +89,11 @@
 .button-right {
   position: absolute;
   right: 0;
+}
+
+.button-left {
+  position: absolute;
+  left: 100;
 }
 
 #to-cart-button {
