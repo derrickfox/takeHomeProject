@@ -6,13 +6,13 @@
         </div><br>
         <div class="col-10" style="padding-left: 4%">
             <div class="row">
-                <h5>{{review.reviewTitle}}</h5>
+                <h5 class="review-title">{{review.reviewTitle}}</h5>
                 <p class="review-date">{{review.reviewDate}}
                     <span style="padding-right: 15%;"></span><img *ngFor="let star of review.reviewRating" class="review-star" src="../../../assets/image-assets/star.png">
                 </p>
             </div>
             <div class="row">
-                <p>{{review.reviewBody}}</p>
+                <p class="review-body-text">{{review.reviewBody}}</p>
             </div>
         </div>
     </div>

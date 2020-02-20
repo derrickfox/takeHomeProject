@@ -18,6 +18,10 @@
   color: white;
 }
 
+#item-image {
+  padding-bottom: 10%;
+}
+
 .spacer {
   height: 5vh;
 }

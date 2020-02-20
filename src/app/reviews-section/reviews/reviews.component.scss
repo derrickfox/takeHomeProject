@@ -5,22 +5,24 @@ $slateBlue : rgb(3, 51, 78);
     color: white;
 }
 
+.review-title {
+    font-weight: bold;
+}
+
+.review-body-text {
+    font-size: 12px;
+}
+
 .review-date {
     width: 40%;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 16px;
-    margin-top: 1%;
     margin-right: 3%;
 }
 
 .review-star {
-    transform: scaleX(0.5) scaleY(0.5);
-    // width: 5%;
-    // height: 2.5%;
-    // padding: 1%;
-    // margin-top: 1%;
-    // padding-top: 1%;
+    transform: scaleX(0.8) scaleY(0.8);
 }
 
 .review-description {
