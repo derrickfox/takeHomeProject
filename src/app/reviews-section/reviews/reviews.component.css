@@ -3,18 +3,25 @@
   color: white;
 }
 
+.review-title {
+  font-weight: bold;
+}
+
+.review-body-text {
+  font-size: 12px;
+}
+
 .review-date {
   width: 40%;
   padding-left: 5%;
   padding-right: 5%;
   font-size: 16px;
-  margin-top: 1%;
   margin-right: 3%;
 }
 
 .review-star {
-  -webkit-transform: scaleX(0.5) scaleY(0.5);
-          transform: scaleX(0.5) scaleY(0.5);
+  -webkit-transform: scaleX(0.8) scaleY(0.8);
+          transform: scaleX(0.8) scaleY(0.8);
 }
 
 .review-description {
