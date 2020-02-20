@@ -8,9 +8,9 @@
                 </div>
                 <div id="right-panel" class="col-md-6" style="padding-left: 15%">
                     <p id="banner-title">{{title}}</p>
-                    <p *ngFor="let point of description" id="banner-description">{{point}}</p>
+                    <p *ngFor="let point of description" id="banner-description">{{point}}</p><br>
                     <div class="row" style="padding-left: 5%">
-                        <select class="browser-default custom-select col-md-4">
+                        <select class="browser-default custom-select col-md-4 button-left">
                             <option selected>Select Size</option>
                             <option value="1">Small</option>
                             <option value="2">Medium</option>
@@ -24,14 +24,15 @@
                         </select>
                     </div>
                     <div class="row spacer"></div>
+                    <div class="row spacer"></div>
                     <div class="row">
-                        <div class="def-number-input number-input col-md-5">
+                        <div class="def-number-input number-input col-md-7">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
                             <input class="quantity" min="0" name="quantity" value="1" type="number">
                             <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
                         </div>
                         <div class="col-md-5 right-column">
-                            <button id="to-cart-button" class="button-right">Add to Cart</button>
+                            <button id="to-cart-button" class="button-right" style="height: 5vh; width: 11vw; margin-left: 0%">Add to Cart</button>
                         </div>
                     </div>
                 </div>
